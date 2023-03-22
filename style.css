@@ -1,4 +1,15 @@
-header{
-    background-color: #D43535;
-    color: white;
+:root{
+    --branco-principal: #FFFFFF;
+    --cor-de-fundo: #CF3232;
+    --preto-secundario: #000000;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }
